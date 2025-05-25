@@ -1,7 +1,7 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'HongShi的个人主页',
+    title: '红石空间站',
     description: '欢迎来到红石的空间站',
     keywords: 'HongShi,个人主页,个人网站',
     icon: 'https://s11.ax1x.com/2023/10/04/pPObVL6.jpg'   //网页图标，支持外链
@@ -27,9 +27,9 @@ const config = {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"海洋女孩", 
-        "preview":"/img/wallpaper/static/海洋女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"MeUmy-弱虫", 
+        "preview":"/img/wallpaper/static/",
+        "url":"/img/wallpaper/static/d-background4.jpg",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
@@ -45,16 +45,16 @@ const config = {
 
   //极坐标图数据
   polarChart:{
-    skills: ['Vue.js', 'React', 'JavaScript', 'Node', 'Java', 'Python', 'linux', 'Docker', 'MySQL', 'MongoDB', 'AWS'],
-    skillPoints: [85, 78, 88, 90, 80, 78, 85, 65, 82, 78, 70],
+    skills: ['Vue', 'C++', 'JavaScript', 'Windows', 'Java', 'Python', 'linux', 'Docker', 'MySQL'],
+    skillPoints: [65, 73, 42, 90, 52, 89, 77, 64, 44],
   },
 
   //社交按钮
   socialPlatformIcons: [
     {icon:"mdi-github",link:"https://www.github.com/HongShi2333"},
     {icon:"mdi-email",link:"mailto:hongshi2333@foxmail.com"},
-    {icon:"mdi-bilibili",link:"https://space.bilibili.com/522549816"},
-    {icon:"mdi-linux.do",link:"https://linux.do/u/hongshi/summary"}
+    {icon:"mdi-television-classic",link:"https://space.bilibili.com/522549816"},
+    {icon:"mdi-linux",link:"https://linux.do/u/hongshi/summary"}
   ],
 
   //打字机
@@ -77,9 +77,24 @@ const config = {
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
   wallpaper:{
     pic:[
-      {"title":"海洋女孩","preview":"/img/wallpaper/static/海洋女孩/image-pre.webp","url":"/img/wallpaper/static/海洋女孩/image.png"},
-      {"title":"书房夜晚","preview":"/img/wallpaper/static/书房夜晚/image-pre.webp","url":"/img/wallpaper/static/书房夜晚/image.png"},
-      {"title":"安逸舒适","preview":"/img/wallpaper/static/安逸舒适/image-pre.webp","url":"/img/wallpaper/static/安逸舒适/image.png"},
+      {"title":"d-background1","preview":"/img/wallpaper/static/d-background1.webp","url":"/img/wallpaper/static/d-background1.jpg"},
+      {"title":"d-background2","preview":"/img/wallpaper/static/d-background2.webp","url":"/img/wallpaper/static/d-background2.jpg"},
+      {"title":"d-background3","preview":"/img/wallpaper/static/d-background3.webp","url":"/img/wallpaper/static/d-background3.jpg"},
+      {"title":"d-background4","preview":"/img/wallpaper/static/d-background4.webp","url":"/img/wallpaper/static/d-background4.jpg"},
+      {"title":"d-background5","preview":"/img/wallpaper/static/d-background5.webp","url":"/img/wallpaper/static/d-background5.jpg"},
+      {"title":"d-background6","preview":"/img/wallpaper/static/d-background6.webp","url":"/img/wallpaper/static/d-background6.jpg"},
+      {"title":"d-background7","preview":"/img/wallpaper/static/d-background7.webp","url":"/img/wallpaper/static/d-background7.jpg"},
+      {"title":"d-background8","preview":"/img/wallpaper/static/d-background8.webp","url":"/img/wallpaper/static/d-background8.jpg"},
+      {"title":"d-background9","preview":"/img/wallpaper/static/d-background9.webp","url":"/img/wallpaper/static/d-background9.jpg"},
+      {"title":"d-background10","preview":"/img/wallpaper/static/d-background10.webp","url":"/img/wallpaper/static/d-background10.jpg"},
+      {"title":"d-background11","preview":"/img/wallpaper/static/d-background11.webp","url":"/img/wallpaper/static/d-background11.jpg"},
+      {"title":"d-background12","preview":"/img/wallpaper/static/d-background12.webp","url":"/img/wallpaper/static/d-background12.jpg"},
+      {"title":"d-background13","preview":"/img/wallpaper/static/d-background13.webp","url":"/img/wallpaper/static/d-background13.jpg"},
+      {"title":"d-background14","preview":"/img/wallpaper/static/d-background14.webp","url":"/img/wallpaper/static/d-background14.jpg"},
+      {"title":"d-background15","preview":"/img/wallpaper/static/d-background15.webp","url":"/img/wallpaper/static/d-background15.jpg"},
+      {"title":"d-background16","preview":"/img/wallpaper/static/d-background16.webp","url":"/img/wallpaper/static/d-background16.jpg"},
+      {"title":"d-background17","preview":"/img/wallpaper/static/d-background17.webp","url":"/img/wallpaper/static/d-background17.jpg"},
+      {"title":"d-background18","preview":"/img/wallpaper/static/d-background18.webp","url":"/img/wallpaper/static/d-background18.jpg"},
       {"title":"jswcMaMj","preview":"https://file.uhsea.com/2503/76a4f03e8654d6e66bbbc7e8149c2fe33M.png","url":"https://file.uhsea.com/2503/5b8a20a5f2b269659911c9485d0d0c3f0F.png"},
       {"title":"pgtTqoqq","preview":"https://file.uhsea.com/2503/caeae6b4fc1aba41bff4ad4ec59d6d8aA5.png","url":"https://file.uhsea.com/2503/45aa0a5a31a0ae95f7cc660e3ab4148eUT.png"},
       {"title":"cvKMKhue","preview":"https://file.uhsea.com/2503/7a693bf725b501e0907ce40f18d2edc49P.png","url":"https://file.uhsea.com/2503/55e7191130d160a8e4421497308ffb67DT.png"},
@@ -91,16 +106,70 @@ const config = {
       
     ],
     picMobile:[
-      {"title":"0001","preview":"/img/wallpaper/static-mobile/0001/image-pre.webp","url":"/img/wallpaper/static-mobile/0001/image.png"},
-      {"title":"0002","preview":"/img/wallpaper/static-mobile/0002/image-pre.webp","url":"/img/wallpaper/static-mobile/0002/image.png"},
-      {"title":"0003","preview":"/img/wallpaper/static-mobile/0003/image-pre.webp","url":"/img/wallpaper/static-mobile/0003/image.png"},
-      {"title":"0004","preview":"/img/wallpaper/static-mobile/0004/image-pre.webp","url":"/img/wallpaper/static-mobile/0004/image.png"},
+      {"title":"m-background1","preview":"/img/wallpaper/static-mobile/m-background1.webp","url":"/img/wallpaper/static-mobile/m-background1.jpg"},
+      {"title":"m-background2","preview":"/img/wallpaper/static-mobile/m-background2.webp","url":"/img/wallpaper/static-mobile/m-background2.jpg"},
+      {"title":"m-background3","preview":"/img/wallpaper/static-mobile/m-background3.webp","url":"/img/wallpaper/static-mobile/m-background3.jpg"},
+      {"title":"m-background4","preview":"/img/wallpaper/static-mobile/m-background4.webp","url":"/img/wallpaper/static-mobile/m-background4.jpg"},
+      {"title":"m-background5","preview":"/img/wallpaper/static-mobile/m-background5.webp","url":"/img/wallpaper/static-mobile/m-background5.jpg"},
+      {"title":"m-background6","preview":"/img/wallpaper/static-mobile/m-background6.webp","url":"/img/wallpaper/static-mobile/m-background6.jpg"},
+      {"title":"m-background7","preview":"/img/wallpaper/static-mobile/m-background7.webp","url":"/img/wallpaper/static-mobile/m-background7.jpg"},
+      {"title":"m-background8","preview":"/img/wallpaper/static-mobile/m-background8.webp","url":"/img/wallpaper/static-mobile/m-background8.jpg"},
+      {"title":"m-background9","preview":"/img/wallpaper/static-mobile/m-background9.webp","url":"/img/wallpaper/static-mobile/m-background9.jpg"},
+      {"title":"m-background10","preview":"/img/wallpaper/static-mobile/m-background10.webp","url":"/img/wallpaper/static-mobile/m-background10.jpg"},
+      {"title":"m-background11","preview":"/img/wallpaper/static-mobile/m-background11.webp","url":"/img/wallpaper/static-mobile/m-background11.jpg"},
+      {"title":"m-background12","preview":"/img/wallpaper/static-mobile/m-background12.webp","url":"/img/wallpaper/static-mobile/m-background12.jpg"},
+      {"title":"m-background13","preview":"/img/wallpaper/static-mobile/m-background13.webp","url":"/img/wallpaper/static-mobile/m-background13.jpg"},
+      {"title":"m-background14","preview":"/img/wallpaper/static-mobile/m-background14.webp","url":"/img/wallpaper/static-mobile/m-background14.jpg"},
+      {"title":"m-background15","preview":"/img/wallpaper/static-mobile/m-background15.webp","url":"/img/wallpaper/static-mobile/m-background15.jpg"},
+      {"title":"m-background16","preview":"/img/wallpaper/static-mobile/m-background16.webp","url":"/img/wallpaper/static-mobile/m-background16.jpg"},
+      {"title":"m-background17","preview":"/img/wallpaper/static-mobile/m-background17.webp","url":"/img/wallpaper/static-mobile/m-background17.jpg"},
+      {"title":"m-background18","preview":"/img/wallpaper/static-mobile/m-background18.webp","url":"/img/wallpaper/static-mobile/m-background18.jpg"},
+      {"title":"m-background19","preview":"/img/wallpaper/static-mobile/m-background19.webp","url":"/img/wallpaper/static-mobile/m-background19.jpg"},
+      {"title":"m-background20","preview":"/img/wallpaper/static-mobile/m-background20.webp","url":"/img/wallpaper/static-mobile/m-background20.jpg"},
+      {"title":"m-background21","preview":"/img/wallpaper/static-mobile/m-background21.webp","url":"/img/wallpaper/static-mobile/m-background21.jpg"},
+      {"title":"m-background22","preview":"/img/wallpaper/static-mobile/m-background22.webp","url":"/img/wallpaper/static-mobile/m-background22.jpg"},
+      {"title":"m-background23","preview":"/img/wallpaper/static-mobile/m-background23.webp","url":"/img/wallpaper/static-mobile/m-background23.jpg"},
+      {"title":"m-background24","preview":"/img/wallpaper/static-mobile/m-background24.webp","url":"/img/wallpaper/static-mobile/m-background24.jpg"},
+      {"title":"m-background25","preview":"/img/wallpaper/static-mobile/m-background25.webp","url":"/img/wallpaper/static-mobile/m-background25.jpg"},
+      {"title":"m-background26","preview":"/img/wallpaper/static-mobile/m-background26.webp","url":"/img/wallpaper/static-mobile/m-background26.jpg"},
+      {"title":"m-background27","preview":"/img/wallpaper/static-mobile/m-background27.webp","url":"/img/wallpaper/static-mobile/m-background27.jpg"},
+      {"title":"m-background28","preview":"/img/wallpaper/static-mobile/m-background28.webp","url":"/img/wallpaper/static-mobile/m-background28.jpg"},
+      {"title":"m-background29","preview":"/img/wallpaper/static-mobile/m-background29.webp","url":"/img/wallpaper/static-mobile/m-background29.jpg"},
+      {"title":"m-background30","preview":"/img/wallpaper/static-mobile/m-background30.webp","url":"/img/wallpaper/static-mobile/m-background30.jpg"},
+      {"title":"m-background31","preview":"/img/wallpaper/static-mobile/m-background31.webp","url":"/img/wallpaper/static-mobile/m-background31.jpg"},
+      {"title":"m-background32","preview":"/img/wallpaper/static-mobile/m-background32.webp","url":"/img/wallpaper/static-mobile/m-background32.jpg"},
+      {"title":"m-background33","preview":"/img/wallpaper/static-mobile/m-background33.webp","url":"/img/wallpaper/static-mobile/m-background33.jpg"},
       {"title":"DfNHPPcc","preview":"https://file.uhsea.com/2503/e3510f4d0286e37b828f74494230f0efM2.png","url":"https://file.uhsea.com/2503/97b50adb3d4cd6f1a4132f6d3e8c98483T.png"},
       {"title":"WIOlrGSy","preview":"https://file.uhsea.com/2503/99162abfe07e18cfe6182ca3458561ef3A.png","url":"https://file.uhsea.com/2503/609532b992163117db9b341dde87b78f3C.png"},
       {"title":"cZZwzhis","preview":"https://file.uhsea.com/2503/cf558fa1989c07726778c60be47b9928K8.png","url":"https://file.uhsea.com/2503/e27b91f1604f73d0444c807024ef7c9fI3.png"},
       {"title":"aANKZHPX","preview":"https://file.uhsea.com/2503/0aa1cb875c8c7c20afd1aa72530294350K.png","url":"https://file.uhsea.com/2503/b09b65e20e176cb0d22dbc319981b5b45L.png"},
     ],
     video:[
+      {
+        "title":"xhs",
+        "preview":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E9%BB%84%E6%98%8F%E6%94%B9%E5%8A%A82.mp4",
+        "url":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E9%BB%84%E6%98%8F%E6%94%B9%E5%8A%A82.mp4"
+      },
+      {
+        "title":"xhs-wt",
+        "preview":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/OP.mp4",
+        "url":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/OP.mp4"
+      },
+      {
+        "title":"xhs-ml",
+        "preview":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E6%A2%A6%E6%B3%A0%2B%E5%8F%8C%E4%BA%BA%E4%BA%92%E5%8A%A8%2B30.mp4",
+        "url":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E6%A2%A6%E6%B3%A0%2B%E5%8F%8C%E4%BA%BA%E4%BA%92%E5%8A%A8%2B30.mp4"
+      },
+      {
+        "title":"xhs-n",
+        "preview":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E7%8B%90%E9%B8%BD%E8%8A%B1%E5%AB%81.mp4",
+        "url":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E7%8B%90%E9%B8%BD%E8%8A%B1%E5%AB%81.mp4"
+      },
+      {
+        "title":"xhs-yz",
+        "preview":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E9%9B%AA%E7%8B%90%20%E5%AE%87%E5%AE%99.mp4",
+        "url":"https://i1.xuehusang.cn/%E9%9D%99%E6%80%81%E5%86%85%E5%AE%B9/pic/%E9%9B%AA%E7%8B%90%20%E5%AE%87%E5%AE%99.mp4"
+      },
       {
         "title":"尼尔：机械纪元 团队",
         "preview":"/img/wallpaper/dynamic/尼尔：机械纪元 团队/Nier-Automata-Team-pre.webm",
