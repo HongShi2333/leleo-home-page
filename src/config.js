@@ -1,14 +1,14 @@
 const config = {
   //网页元数据
   metaData:{
-    title: 'Leleo的个人主页🎉',
-    description: '欢迎来到Leleo的奇妙世界！',
-    keywords: 'Leleo,leleo,个人主页,个人网站',
-    icon: '/favicon.ico'   //网页图标，支持外链
+    title: 'HongShi的个人主页',
+    description: '欢迎来到红石的空间站',
+    keywords: 'HongShi,个人主页,个人网站',
+    icon: 'https://s11.ax1x.com/2023/10/04/pPObVL6.jpg'   //网页图标，支持外链
   },
 
   avatar: "/img/avatar.jpg", // 头像
-  welcometitle: "Hi, I'm Leleo", // 标题
+  welcometitle: "Hi, I'm HongShi", // 标题
 
   // 颜色配置
   color: {
@@ -20,7 +20,7 @@ const config = {
   blur: 5, // 毛玻璃模糊效果
 
   // 我的标签
-  tags : ['乐观开朗','温柔体贴','随和亲切','冷静沉着','才思敏捷','风趣幽默','刚正不阿','善解人意'],
+  tags : ['高中牲','热爱科技','喜欢摄影','困'],
 
   // 默认背景壁纸
   background: {
@@ -51,27 +51,27 @@ const config = {
 
   //社交按钮
   socialPlatformIcons: [
-    {icon:"mdi-github",link:"https://www.github.com/leleo886"},
-    {icon:"mdi-email",link:"mailto:leleo886@foxmail.com"},
-    {icon:"mdi-qqchat",link:"https://im.qq.com/"},
-    {icon:"mdi-wechat",link:"https://wx.qq.com/"},
-    {icon:"mdi-youtube",link:"https://www.youtube.com"},
-    {icon:"mdi-facebook",link:"https://www.facebook.com"}
+    {icon:"mdi-github",link:"https://www.github.com/HongShi2333"},
+    {icon:"mdi-email",link:"mailto:hongshi2333@foxmail.com"},
+    {icon:"mdi-bilibili",link:"https://space.bilibili.com/522549816"},
+    {icon:"mdi-linux.do",link:"https://linux.do/u/hongshi/summary"}
   ],
 
   //打字机
   typeWriterStrings: [
-    "如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
-    "顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
-    "心简单，世界就简单，幸福才会生长；心自由，生活就自由，到哪都有快乐。",
-    "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
+    "人安静地生活，哪怕是静静地听着风声，亦能感觉到诗意的生活。",
+    "光锥之内就是命运。",
+    "每个人都是新手。你也是第一次参赛的新手，不要为失败感到沮丧。",
+    "云朵即便不在，也会以雪或雨的形式延续。",
+    "每个故事必须按照自己的方式、自己的时间节奏缓缓展开。",
+    "感到孤独的真正原因，是无法与他人交流最要紧的感受。"
   ],
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
   musicPlayer:{
     server: 'netease',  //服务提供商 --网易云音乐
     type: 'playlist',   //歌单类型
-    id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    id: '12494451415'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -143,7 +143,7 @@ const config = {
     {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
   ],
   
-  statement: ["备案号：XXICP备123456789号","Copyright © 2025 Leleo"],
+  statement: ["Copyright © 2025 HongShi"],
 }
 
 export default config
